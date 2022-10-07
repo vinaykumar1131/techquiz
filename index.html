@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my first page..</title>
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        * 
+            {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                overflow-x: hidden;
+            }
+        .quiz-text
+            {
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 5px;
+            }
+        .contain
+            {
+                background:#021b42;
+            }
+        .twoicon i
+            {
+                margin-right: 10px;
+            }
+        
+        .container1 img 
+            {
+                width: 50px;
+                height: 50px;
+                border-radius: 60px;
+                margin-top: -8px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+        .btn-light
+            {
+                background-color:#f57435;
+                margin-left: 12px;
+            }
+        a 
+            {
+                text-decoration: none;
+            }
+        .navbar 
+            {
+                background-color: rgba(2, 27, 66, 255);
+                color: white;
+            }
+        .header 
+            {
+                padding: 2rem;
+                color: rgba(2, 27, 66, 255);
+                font-size: 45px;
+                font-weight: 600;
+                text-align: center;
+                text-shadow: 3px 3px #f57435;
+                font-weight: bold;
+                background: linear-gradient(to right, #dad1d1 0%, #f5915f 100%);
+            }
+        .container2
+            {
+                width: auto;
+                background: linear-gradient(to right, #dad1d1 0%, #f5915f 100%);
+                
+            }
+        .slide
+            {
+                overflow: hidden;
+            }
+        
+        
+        .slide-container
+            {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-right: 40px;    
+                margin-left: 40px;
+            }
+        .about-container
+            {
+                margin-top: 17px;
+            
+            }
+        .card 
+            {
+                border: 2px solid rgba(2, 27, 66, 255);
+                text-align: center;
+                color: rgba(2, 27, 66, 255);
+                position: relative;
+                margin-left: 40px;
+                box-sizing: border-box;
+            }
+        .container3 .row 
+            {
+                margin: auto;
+                
+            }
+        .inner-container 
+            {
+                width: 80%;
+                margin: auto;
+            }
+        .header2 
+            {
+    
+                color: rgba(2, 27, 66, 255);
+                font-size: 45px;
+                font-weight: 600;
+                text-align: center;
+                font-weight: bold;
+            }
+        .container3-4
+            {
+                height:auto;
+                background: #dad1d1;
+                border-top: #021b42 solid 2px;
+            }
+        .changeh3
+            {
+                color:#f57435;
+                font-weight: bold;
+            }
+        .changep
+            {
+                color:#021b42;
+                font-weight: 600;
+            }
+        /* .big-text 
+            {
+                background: linear-gradient(to right, #dad1d1 0%, #faad86 100%);
+                color:#021b42;
+                font-weight: bold;
+                font-size: 80px;
+                margin: 20px 0px;
+                padding-left: 55px;
+                width: 83%;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+        */
+        .header3
+            {
+    
+                color: rgba(2, 27, 66, 255);
+                font-size: 45px;
+                font-weight: 600;
+                text-align: center;
+                font-weight: bold;
+            }
+        .lastone p
+            {
+                font-size: 20px;
+                text-align: center;
+            }
+        .container6
+            {
+                background: linear-gradient(to right, #e9c7a7 0%, #c0ccdf 100%);
+                height: auto;
+                border-top: #021b42 solid 2px;
+                overflow: hidden;
+            }
+        .footer 
+            {
+                padding: 1rem;
+                background-color: rgba(2, 27, 66, 255);
+                color: white;
+                text-align: center;
+            }
+
+        .icon_footer 
+            {
+                text-align: center;
+            }
+        .allicon
+            {
+                font-size: 25px;
+                margin: 3px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-fluid contain text-center">
+        <nav class="navbar navbar-expand-lg contain">
+          <div class="container-fluid">
+            <div>
+              <span class="container1">
+                <img src="images/brainimg.jpg" alt="quiz">
+              </span>
+              <span class="quiz-text">QUIZ</span>
+            </div>
+    
+            <span class="navbar-text">
+              <form class="container-fluid justify-content-start">
+                <button class="btn btn-lg btn-light color" type="button"><a href="signup.php"><span class="twoicon"><i
+                        class="fa-solid fa-user-plus black"></i></span>Sign UP</a></button>
+                <button class="btn btn-lg btn-light" type="button"><a href="login.php"><span class="twoicon"><i
+                        class="fa-solid fa-right-to-bracket"></i></span>Log In</a></button>
+              </form>
+            </span>
+          </div>
+        </nav>
+      </div>
+      
+      <div class="container-fluid header">
+        <p>WELCOME TO OUR WEBSITE</p>
+      </div>
+    
+      <div class="container2">
+        <div class="row">
+          <div class="col-md-3 about-container">
+            <div class="card" style="width: 18rem;">
+    
+              <div class="card-body">
+                <img src="images/pic11.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">
+                  <marquee behavior="slide" direction="up" scrollamount=2 class="ull">
+                    <ul>
+                      <li>This is our webiste for checking your knowladge about technology.</li>
+                      <li>You can create your account by clicking on signup.</li>
+                      <li>Then go to your account by clicking on login and then check the quizes.</li>
+                    </ul>
+                  </marquee>
+                </p>
+    
+              </div>
+
+            </div>
+          </div>
+          <div class="offset-md-1 col-md-8 slider">
+            <div id="carouselExampleInterval" class="carousel slide slide-container" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="images/quizz.png" class="d-block w-100 " alt="..." style="height:467px;">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="images/newww1.jpg" class="d-block w-100" alt="..." style="height:467px;">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="images/y4.jpg" class="d-block w-100" alt="..." style="height:467px;">
+                </div>
+
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container3-4">
+      <div class="container-fluid header2">
+        <p>What we offer</p>
+      </div>
+
+      <div class="container3 text-center my-5">
+        <div class="row inner-container">
+          <div class="col-md-4 item item1">
+            <i class="fa-solid fa-memo-circle-check"></i>
+            <h3 class="changeh3">Live Test</h3>
+            <p class="changep">Signup for the test you want to appear.You can register in single click for the test of your choice from Dashboard.</p>
+          </div>
+    
+          <div class="col-md-4 item middle item2">
+            <i class="fa-solid fa-memo-circle-check"></i>
+            <h3 class="changeh3">High Yield Questions</h3>
+            <p class="changep">Take test when you login in with gmail and you can practice your skill again and again. </p>
+          </div>
+    
+          <div class="col-md-4 item item3">
+            <i class="fa-solid fa-memo-circle-check"></i>
+            <h3 class="changeh3">Insightful Analytics</h3>
+            <p class="changep">Dashboard is true sense that helps you analyze your performance,Everthing you do that at one place. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container6">
+        <div class="container-fluid header3">
+            <p>Never Stop Learning</p>
+        </div>
+        <div class="lastone text-center">
+            <p>Our vision is to be the source for childhood learning on the internet valuable from anywhere for everywhere and without charge.</p>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid footer">
+        <div class="row">
+          <div class="col-sm-1 footer_logo">
+            <img src="images/source.gif" alt="">
+    
+          </div>
+          <div class="col-md-1">
+            <h3>QUIZ</h3>
+          </div>
+          <div class="col-md-7">
+            <div class="icon_footer">
+              <span class="allicon"> <i class="fa-brands fa-facebook-f"> </i></span>
+              <span class="allicon"><i class="fab fa-youtube"></i></span>
+              <span class="allicon"><i class="fa-brands fa-instagram"></i></span>
+              <span class="allicon"> <i class="fa-brands fa-twitter"> </i> </span>
+    
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="copyright">
+              copyright 2022 @quiz all rights reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
